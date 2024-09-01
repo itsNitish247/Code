@@ -1,0 +1,17 @@
+package string;
+
+public class StringContainsVowels {
+	
+	public static void main(String[] args) {
+	System.out.println(ContainsVowels("Hello"));
+		
+		
+	}
+	
+	public static boolean ContainsVowels(String input) {
+		
+		return input.toLowerCase().matches("*[aeiou]*");
+		
+	}
+
+}

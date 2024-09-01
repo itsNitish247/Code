@@ -1,0 +1,17 @@
+package string;
+
+public class StringContainsVowels {
+
+	public static void main(String[] args) {
+		System.out.println(ContainsVowels(" "));
+	}
+
+	public static boolean ContainsVowels(String input) {
+		return input.toLowerCase().matches(".*[aeiou].*");
+	}
+}
+
+// .* before the vowel match allows for any characters before the vowel
+// [aeiou]  ensures that at least one vowel is present 
+// .* after the vowel match allows for any characters after the vowel
+

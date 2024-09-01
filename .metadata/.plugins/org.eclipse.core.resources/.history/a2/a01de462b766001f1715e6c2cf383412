@@ -1,0 +1,18 @@
+package hasMapMethods;
+
+import java.util.HashMap;
+
+public class JavaHashMap_compute {
+public static void main(String[] args) {
+	HashMap<String , Integer> map = new HashMap<>();
+	map.put("Nitish", 2);
+	map.put("Kumar", 2);
+	map.put("Nitish", 2);
+	
+	System.out.println("before compute()" + map);
+	
+	
+	map.compute(1,(key,value) -> value*10);
+
+	}
+}

@@ -1,0 +1,20 @@
+package hasMapMethods;
+
+import java.util.HashMap;
+
+public class JavaHashMap_clone {
+public static void main(String[] args) {
+	HashMap<Integer , String> map = new HashMap<>();
+	map.put(1, "geeks");
+	map.put(2,"welcomes");
+	map.put(2, "welcomes");
+	
+	System.out.println("before using clone()" + map);
+	
+	System.out.println("after using clone ()" + map.clone());
+	
+	
+	HashMap copy =  (HashMap) map.clone();
+	System.out.println("clone stored in an variable " +copy);
+}
+}

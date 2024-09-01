@@ -1,0 +1,11 @@
+package hasMapMethods;
+
+import java.util.HashMap;
+
+public class JavaHashMap_containsKey {
+public static void main(String[] args) {
+	
+	HashMap<String , Integer> map = new HashMap<String ,Integer>();
+	
+}
+}

@@ -1,0 +1,21 @@
+package hasMapMethods;
+
+import java.util.HashMap;
+
+public class JavaHashMap_containsKey {
+	public static void main(String[] args) {
+
+		HashMap<String , Integer> map = new HashMap<>();
+//		map.put("Nitish", 2);
+		map.put("Kumar", 2);
+//		map.put("Nitish", 3);
+
+		System.out.println("is key 'Nitish' present ?" +" "+ map.containsKey("Nitish"));
+
+	}
+}
+
+//===================================
+//containsKey
+//===================================
+//a key  must be provided , it'll return true or false if the key exists'

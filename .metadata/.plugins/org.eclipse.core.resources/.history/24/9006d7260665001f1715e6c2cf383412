@@ -1,0 +1,11 @@
+package stringMethods;
+
+public class StringCharAt {
+public static void main(String...args) {
+	String str =  "Hello";
+    System.out.println("Character at the position is" + " " + str.charAt(0));
+    
+    char result = str.charAt(0);
+    System.out.println(result);
+}
+}
