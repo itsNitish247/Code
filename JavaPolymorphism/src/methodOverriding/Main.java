@@ -7,5 +7,7 @@ public static void main(String[] args) {
 	Donkey d1= new Donkey();
 	d.displayInfo();
 	d1.displayInfo();
+	
 }
 }
+
