@@ -22,6 +22,6 @@ public void speedUp(int increament) {
 
 
 public String toString() {
-	return ("No of gears are" + gear + "/n" + "speed of the bicycle is" + speed);
+	return ("No of gears are" + gear + " " +"\n" + "speed of the bicycle is" + " "+speed);
 }
 }

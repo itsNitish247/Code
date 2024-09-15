@@ -13,7 +13,7 @@ public class MountainBike extends Bicycle{
 	}
 	
 		public String toString() {
-			return (super.toString() + "/n" + " and seat height is" + seatHeight );
+			return (super.toString() + "\n" + "and seat height is" + " " + seatHeight );
 		
 	}
 
